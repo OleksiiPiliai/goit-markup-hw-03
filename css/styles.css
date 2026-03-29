@@ -41,10 +41,10 @@ button{
 /* general classes */
 
 .container{
-    width: 1440px;
+    max-width: 1158px;
     margin: 0 auto;
-    padding-left: 156px;
-    padding-right: 156px;
+    /* padding-left: 156px;
+    padding-right: 156px; */
 }
 
 .link-active:hover,
@@ -73,12 +73,16 @@ button{
 /* Header */
 
 .header {
+    border-bottom: 1px solid rgba(231, 233, 252, 1);
+}
+
+.header-dox{
     display: flex;
     align-items: center;
 }
 
 .header-logo {
-    display: block;
+    /* display: block; */
     padding: 24px 0;
 }
 
@@ -129,7 +133,6 @@ button{
 
 .hero {
     background-color: #2e2f42;
-    height: 600px;
     padding: 188px 0;
 }
 
@@ -162,7 +165,6 @@ button{
     border: none;
     border-radius: 4px;
     margin-top: 48px;
-    margin-left: calc (50% -169px / 2);
 }
 
 .hero-button:hover,
@@ -235,6 +237,10 @@ button{
 
 .team-item-img {}
 
+.team-box{
+    padding: 32px 16px;
+}
+
 .team-item-title {
     font-weight: 500;
     font-size: 20px;
@@ -249,6 +255,7 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-top: 8px;
 }
 
 /* Portfolio */
@@ -294,6 +301,7 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 8px;
 }
 
 /* Footer */
